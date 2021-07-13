@@ -1,0 +1,52 @@
+BATTSI - version 1.0 - Still Script
+----
+Biological Activity Transcription Tool for Small Insects
+---
+Fernan Rodrigo Perez Galvez
+--
+Last Modified: 13 July 2021
+-
+-
+INSTALLATION
+Instructions for installation on Windows.
+Mac and Linux should be similar but have not been tested yet.
+-
+Pre-requisites
+1. Python
+	Install Python interpreter from:
+		https://www.python.org/downloads/
+	Make sure mark the option to install in PATH
+
+2. Anaconda (Python)
+	This is a developer tool for scientific computation.
+	Download and install from:
+		https://www.anaconda.com/products/individual
+	Make sure to mark the option to install in PATH.
+	
+3. OpenCV
+	Open the Python terminal and run
+		pip install opencv-contrib-python
+	*You may need to install pip before
+-
+INSTRUCTIONS
+In a folder containing the scripts and the video to analyse.
+
+Part 1 - First Frame
+	a) Open the script using Anaconda
+	b) Modify line 23 and 27
+	c) Run the whole script
+
+Part 2 - Well Define
+	a) Open script in Anaconda
+	b) Modify lines 24 and 25
+	c) Run the script
+	d) A new window with the first frameof the video will open
+	e) Follow the instructions on Anaconda terminal
+	f) Copy the output after defining the wells
+
+Part 3 - Motion Detection
+	a) Open script in Anaconda
+	b) Modify lines 51, 52, 53
+	c) Paste the wells from the last script in line 54
+	d) Modify parameters in lines 59 and 60, if required
+	e) Run the script
